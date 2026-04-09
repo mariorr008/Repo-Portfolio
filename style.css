@@ -111,7 +111,7 @@ hr{
     border-radius: 10%;
     width: 400px;
     padding: 10px;
-    margin: 15px;
+    margin: 20px;
     background-color: #1e293b;
 }
 .proyectos-trabajados ul li{
@@ -136,12 +136,94 @@ justify-content: center;
     border-style: groove;
     border-radius: 10%;
     box-shadow: 0 3px 20px;
-    padding: 30px;
+    padding: 40px;
     margin: 40px;
     background-color: #1e293b;
-
 }
 .foto-hab{
-    width: 60%;
-    height: 70px; 
+    width: 90%;
+    height: 50px; 
+}
+.proyectos-trabajados:hover{
+    transform: scale(1.1);
+}
+.cuadro:hover{
+    transform: scale(1.1);
+}
+#contacto{
+    border-style: groove;
+    background-color: #1e293b;
+    margin: 55px;
+}
+#formulario-contacto{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.cuadro2{
+    color: #8e9194;
+    width: 300px;
+    height: 30px;
+}
+#boton-enviar{
+    width: 280px;
+    height: 30px;
+    margin: 10px 10px;
+}
+#formulario-contacto input:hover{
+    color: #0f172a;
+    font-size: 16px;
+    border: 1px solid #38bdf8;
+}
+#formulario-contacto label{
+    color: #b3b8bd;
+    margin: 10px;
+}
+#rude{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+    margin: 0 30%;
+    justify-content: center;
+}
+#rude img{
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+}
+.rude2:hover{
+    transform: scale(1.1);
+}
+
+#formulario2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.foto3{
+    width: 100px;
+}
+.reco{
+    display: flex;
+    margin: 30px;
+    text-align: center;
+}
+.reco img{
+    width: 100px;
+    height: 100px;
+    margin: 20px 500px;
+}
+.reco:hover{
+    transform: scale(1.2);
+}
+.reco h3{
+    color: #8e9194;
+    margin: 20px;
+}
+#contacto{
+    display: flex;
+    padding: 20px;
+}
+#titulo3{
+    margin: 30px 60px;
 }
